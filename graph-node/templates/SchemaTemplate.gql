@@ -1,0 +1,7 @@
+type <%=nodeNameInPascalCase%> {
+	id: Int
+}
+
+extend type Query {
+    get<%=nodeNameInPascalCase%>: <%=nodeNameInPascalCase%>
+}

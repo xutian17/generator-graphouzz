@@ -1,0 +1,33 @@
+{
+  "name": "generator-graphouzz",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-fixer": "./node_modules/.bin/jscs --fix",
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "deep-extend": "^0.4.1",
+    "mkdirp": "^0.5.1",
+    "shelljs": "^0.5.3",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.1.0",
+    "jukwaa-core": "~3.2.51",
+    "lodash": "^4.0.1"
+  },
+  "devDependencies": {
+    "chance": "^0.8.0",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "jscs": "^3.0.7",
+    "jshint": "^2.8.0",
+    "lodash": "^4.0.1",
+    "mocha": "^2.3.4",
+    "yeoman-assert": "^2.1.1"
+  }
+}
